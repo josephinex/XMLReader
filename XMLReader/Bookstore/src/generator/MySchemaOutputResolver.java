@@ -1,3 +1,4 @@
+package generator;
 import java.io.File;
 import java.io.IOException;
 
@@ -9,7 +10,7 @@ public class MySchemaOutputResolver extends SchemaOutputResolver {
 
 	@Override
     public Result createOutput(String namespaceURI, String suggestedFileName) throws IOException {
-        File file = new File("", "bookstore.xsd");
+        File file = new File("./src/schema", "bookstore.xsd");
         StreamResult result = new StreamResult(file);
         result.setSystemId(file.toURI().toURL().toString());
         return result;

@@ -1,8 +1,11 @@
+package generator;
 import java.io.IOException;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.SchemaOutputResolver;
+
+import bookstore.Bookstore;
 
 public class XsdGenerator {
 	
