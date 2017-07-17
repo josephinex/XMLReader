@@ -1,4 +1,7 @@
+package bookstore;
 import javax.xml.bind.JAXBException;
+
+import generator.XsdGenerator;
 
 public class Main {
 
