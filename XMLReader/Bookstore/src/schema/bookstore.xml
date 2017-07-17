@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bookstore>
+    <book>
+        <title>Harry Potter</title>
+        <author>J.K.Rowling</author>
+        <date>2017-07-17T14:36:48.575+03:00</date>
+        <ISBN>98653323232</ISBN>
+        <publisher>Publisher</publisher>
+        <cost>100</cost>
+    </book>
+    <book>
+        <title>The Hobbit</title>
+        <author>J. R. R. Tolkien</author>
+        <date>2017-07-17T14:36:48.575+03:00</date>
+        <ISBN>98665323232</ISBN>
+        <publisher>Publisher</publisher>
+        <cost>100</cost>
+    </book>
+    <book>
+        <title>The Picture of Dorian Gray</title>
+        <author>Oscar Wilde</author>
+        <date>2017-07-17T14:36:48.575+03:00</date>
+        <ISBN>98765677232</ISBN>
+        <publisher>Publisher</publisher>
+        <cost>150</cost>
+    </book>
+    <book>
+        <title>Pride and Prejudice</title>
+        <author>Jane Austen</author>
+        <date>2017-07-17T14:36:48.575+03:00</date>
+        <ISBN>98765677232</ISBN>
+        <publisher>Publisher</publisher>
+        <cost>180</cost>
+    </book>
+    <book>
+        <title>L'homme qui rit</title>
+        <author>Victor Hugo</author>
+        <date>2017-07-17T14:36:48.575+03:00</date>
+        <ISBN>98765677232</ISBN>
+        <publisher>Publisher</publisher>
+        <cost>190</cost>
+    </book>
+</bookstore>
