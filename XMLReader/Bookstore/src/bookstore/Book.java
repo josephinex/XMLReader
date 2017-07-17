@@ -1,11 +1,25 @@
+package bookstore;
+import java.io.Serializable;
 import java.util.Date;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Book {
+@XmlType(name = "book", propOrder = {
+    "title",
+    "author",
+    "date",
+    "ISBN",
+    "publisher",
+    "cost"
+})
+public class Book implements Serializable{
+
+	private static final long serialVersionUID = 2160141592416705966L;
+	
 	@XmlElement(required = true)
 	private String title;
 	@XmlElement(required = true)
