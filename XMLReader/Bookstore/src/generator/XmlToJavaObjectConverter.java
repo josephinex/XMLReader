@@ -8,7 +8,7 @@ import javax.xml.bind.Unmarshaller;
 
 import bookstore.Bookstore;
 
-public class ConvertToJavaObject {
+public class XmlToJavaObjectConverter {
 	public static void main(String[] args) {
 
 		try {

@@ -13,7 +13,7 @@ import bookstore.Book;
 import bookstore.Bookstore;
 
 
-public class ConvertToXml {
+public class JavaObjToXmlConverter {
 	public static void main(String[] args){
 		Book book = new Book();
 		book.setAuthor("J.K.Rowling");
