@@ -1,43 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <bookstore>
-    <book>
+    <book id="harry_potter">
         <title>Harry Potter</title>
         <author>J.K.Rowling</author>
-        <date>2017-07-17T14:36:48.575+03:00</date>
+        <date>2017-07-22T14:16:07.145+03:00</date>
         <ISBN>98653323232</ISBN>
         <publisher>Publisher</publisher>
         <cost>100</cost>
     </book>
-    <book>
+    <book id="hobbit">
         <title>The Hobbit</title>
         <author>J. R. R. Tolkien</author>
-        <date>2017-07-17T14:36:48.575+03:00</date>
+        <date>2017-07-22T14:16:07.145+03:00</date>
         <ISBN>98665323232</ISBN>
         <publisher>Publisher</publisher>
         <cost>100</cost>
     </book>
-    <book>
+    <book id="dorian_gray">
         <title>The Picture of Dorian Gray</title>
         <author>Oscar Wilde</author>
-        <date>2017-07-17T14:36:48.575+03:00</date>
+        <date>2017-07-22T14:16:07.145+03:00</date>
         <ISBN>98765677232</ISBN>
         <publisher>Publisher</publisher>
         <cost>150</cost>
     </book>
-    <book>
+    <book id="pride_prejudice">
         <title>Pride and Prejudice</title>
         <author>Jane Austen</author>
-        <date>2017-07-17T14:36:48.575+03:00</date>
+        <date>2017-07-22T14:16:07.145+03:00</date>
         <ISBN>98765677232</ISBN>
         <publisher>Publisher</publisher>
         <cost>180</cost>
     </book>
-    <book>
+    <book id="homme_qui_rit">
         <title>L'homme qui rit</title>
         <author>Victor Hugo</author>
-        <date>2017-07-17T14:36:48.575+03:00</date>
+        <date>2017-07-22T14:16:07.145+03:00</date>
         <ISBN>98765677232</ISBN>
         <publisher>Publisher</publisher>
         <cost>190</cost>
+    </book>
+    <book id="lord_rings">
+        <title>The Lord of the Rings</title>
+        <author>J. R. R. Tolkien</author>
+        <date>2017-07-22T14:16:07.145+03:00</date>
+        <ISBN>98665323232</ISBN>
+        <publisher>Publisher</publisher>
+        <cost>100</cost>
     </book>
 </bookstore>
