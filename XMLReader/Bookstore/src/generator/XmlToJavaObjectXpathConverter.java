@@ -31,10 +31,9 @@ public class XmlToJavaObjectXpathConverter {
 		Object result = expr.evaluate(doc, XPathConstants.NODESET);
 		NodeList nodes = (NodeList) result;
 
-		/*
-		 * for (int i = 0; i < nodes.getLength(); i++) {
-		 * System.out.println(nodes.item(i).getNodeValue()); }
-		 */
+		for (int i = 0; i < nodes.getLength(); i++) {
+			System.out.println(nodes.item(i).getNodeValue());
+		}
 
 		// return all book authors
 		XPathExpression expr2 = xpath.compile("//book/author/text()");
