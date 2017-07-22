@@ -22,6 +22,7 @@ public class JavaObjToXmlConverter {
 		book.setCost(100);
 		book.setPublisher("Publisher");
 		book.setISBN(98653323232L);
+		book.setId("harry_potter");
 		
 		Book book2 = new Book();
 		book2.setAuthor("J. R. R. Tolkien");
@@ -30,6 +31,7 @@ public class JavaObjToXmlConverter {
 		book2.setCost(100);
 		book2.setPublisher("Publisher");
 		book2.setISBN(98665323232L);
+		book2.setId("hobbit");
 		
 		Book book3 = new Book();
 		book3.setAuthor("Oscar Wilde");
@@ -38,6 +40,7 @@ public class JavaObjToXmlConverter {
 		book3.setCost(150);
 		book3.setPublisher("Publisher");
 		book3.setISBN(98765677232L);
+		book3.setId("dorian_gray");
 		
 		Book book4 = new Book();
 		book4.setAuthor("Jane Austen");
@@ -46,6 +49,7 @@ public class JavaObjToXmlConverter {
 		book4.setCost(180);
 		book4.setPublisher("Publisher");
 		book4.setISBN(98765677232L);
+		book4.setId("pride_prejudice");
 		
 		Book book5 = new Book();
 		book5.setAuthor("Victor Hugo");
@@ -54,6 +58,16 @@ public class JavaObjToXmlConverter {
 		book5.setCost(190);
 		book5.setPublisher("Publisher");
 		book5.setISBN(98765677232L);
+		book5.setId("homme_qui_rit");
+		
+		Book book6 = new Book();
+		book6.setAuthor("J. R. R. Tolkien");
+		book6.setDate(new Date());
+		book6.setTitle("The Lord of the Rings");
+		book6.setCost(100);
+		book6.setPublisher("Publisher");
+		book6.setISBN(98665323232L);
+		book6.setId("lord_rings");
 		
 		
 		Bookstore bookstore = new Bookstore();
@@ -63,6 +77,7 @@ public class JavaObjToXmlConverter {
 		list.add(book3);
 		list.add(book4);
 		list.add(book5);
+		list.add(book6);
 		bookstore.setBook(list);
 		
 		JAXBContext jaxbContext = null;
@@ -74,7 +89,6 @@ public class JavaObjToXmlConverter {
 			jaxbMarshaller.marshal(bookstore, new File("src/schema/bookstore.xml"));
 			jaxbMarshaller.marshal(bookstore, System.out);
 		} catch (JAXBException e) {
-			
 			e.printStackTrace();
 		}
 		
