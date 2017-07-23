@@ -1,4 +1,4 @@
-package generator;
+package xpath;
 
 import java.io.IOException;
 
