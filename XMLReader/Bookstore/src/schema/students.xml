@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<students>
+  <student id="678945">
+    <name>Alice</name>
+    <age>19</age>
+    <id>678945</id>
+    <department>Physics</department>
+    <universityYear>first</universityYear>
+  </student>
+  <student id="678445">
+    <name>John</name>
+    <age>21</age>
+    <id>678445</id>
+    <department>Mathematics</department>
+    <universityYear>third</universityYear>
+  </student>
+  <student id="674445">
+    <name>Ralf</name>
+    <age>23</age>
+    <id>674445</id>
+    <department>Computer Science</department>
+    <universityYear>fourth</universityYear>
+  </student>
+</students>
