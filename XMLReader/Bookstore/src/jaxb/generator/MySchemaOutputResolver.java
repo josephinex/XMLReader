@@ -1,4 +1,4 @@
-package generator;
+package jaxb.generator;
 import java.io.File;
 import java.io.IOException;
 
