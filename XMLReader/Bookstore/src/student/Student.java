@@ -57,5 +57,9 @@ public class Student {
 	public void setUniversityYear(String universityYear) {
 		this.universityYear = universityYear;
 	}
+	
+	public String toString() {
+		return this.id + ", " + this.name + ", " + this.age + ", " + this.department + ", " + this.universityYear + " year";
+	}
 
 }
